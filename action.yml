@@ -1,4 +1,4 @@
-name: 'Close Issue'
+name: 'Close Issue2'
 description: 'A GitHub action to close an issue'
 inputs:
   token:

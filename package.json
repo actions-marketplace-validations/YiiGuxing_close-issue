@@ -1,5 +1,5 @@
 {
-  "name": "close-issue",
+  "name": "close-issue2",
   "version": "2.1.0",
   "private": true,
   "description": "A GitHub action to close an issue",
