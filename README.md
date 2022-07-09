@@ -10,7 +10,7 @@ A GitHub action to close an issue.
 
 ```yml
       - name: Close Issue
-        uses: YiiGuxing/close-issue2@v2.1
+        uses: YiiGuxing/close-issue@v2.1
         with:
           issue-number: 1
           close-reason: completed
@@ -31,7 +31,7 @@ jobs:
     steps:
       - if: startsWith(github.event.issue.title, 'ABC-') != 'true'
         name: Close Issue
-        uses: YiiGuxing/close-issue2@v2.1
+        uses: YiiGuxing/close-issue@v2.1
         with:
           comment: |
             Issue title must start with 'ABC-'.
